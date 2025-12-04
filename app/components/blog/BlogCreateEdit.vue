@@ -87,6 +87,7 @@
     .main-content {
         background-color: WhiteSmoke; /* DELETE LATER */
         overflow: scroll;
+        overflow-x:hidden;
         height: calc(100vh - 20px);
         padding:0 0 20px 0;
     }
@@ -96,6 +97,8 @@
         padding: 20px;
         text-align: left;
         overflow: scroll;
+        overflow-x:hidden;
+        overflow-y:hidden;
     }
     
     p {
@@ -124,6 +127,7 @@
         border: 1px solid gray;
         resize: vertical;
         overflow: scroll;
+        overflow-x:hidden;
     }
 
     input{
